@@ -1,0 +1,105 @@
+body{
+    background: #DBE6F6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    height: 80vh;
+    width: 100 vw;
+    overflow-x: none;
+  
+}
+.navlist{
+    list-style: none;
+    font-size: 2rem;
+    display:flex;
+ 
+}
+.navcontainer{
+    width:100vw;
+    background: #FFAFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+    min-height:80px ;
+    display:flex;
+    align-items: center;
+}
+#brand{
+    margin-right:980px;
+    margin-left: 10px;
+    color:black; 
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:blueviolet;
+}
+#item{
+    display: flex;
+    gap:20px;
+}
+.footerbox{
+    background: #FFAFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+text-align: center;
+min-height: 30px;
+}
+footer p{
+    color: black;
+    font-size: 1.5rem;
+}
+.content{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    background-color:pink;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 40px;
+   
+}
+.content2{
+    width: 90%;
+    margin: 40px;
+    border: 1px solid black;
+    background-color:pink;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    
+   
+}
+.items{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    gap: 40px;
+   align-content: center;
+}
+/* .leftbox {
+    align-items: center;
+    justify-content: space-around; */
+/* } */
+.righbox img{
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 400px;
+    height: 380px;
+    border-radius: 10px;
+}
